@@ -1,0 +1,36 @@
+This is a simple "Todo list" application, build with React Js and Node Js.
+
+
+Features of this application -
+
+1. We can add new todos in list.
+
+2. We can check todos.
+
+3. We can mark todos as active.
+
+4. We can remove individual todos.
+
+5. We can filter todos with respect to their "Active", "Completed" and "All" status.
+
+
+
+6. We can delete all the Checked todos with a button "Delete All Checked Items".
+7. We can delete all the Active todos with a button "Delete All Active Items".
+
+
+To run the above set of code install the following 
+
+
+1. Node JS
+
+2. Visual Studio Code 
+
+
+
+Using Visual Studio Code - install the necessary packages to run the application
+
+To install the packages run "npm install" in both the client and server folder. 
+
+
+To run the individual application please follow the instructions.txt present in its corresponding folder.

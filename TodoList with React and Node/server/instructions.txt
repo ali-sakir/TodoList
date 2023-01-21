@@ -1,0 +1,17 @@
+To Do List - React & Node JS 
+
+
+This app helps to add a todolist , mark a task as active / completed and show the total count of tasks 
+
+
+To run the app : 
+
+Pull the code and Go to the path in which you have the package.json
+ 
+npm install 
+
+ npm start 
+
+
+The server be available in localhost and default port 9000 
+
