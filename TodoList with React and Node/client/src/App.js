@@ -4,7 +4,7 @@ import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/Delete';
 import RemoveIcon from '@mui/icons-material/Remove';
 import CircularProgress from '@mui/material/CircularProgress';
-import {ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import axios from "axios";
 import "./App.css";
@@ -117,11 +117,11 @@ function App() {
   }
 
   const errorPopup = () => {
-    toast.error ("Something went wrong with 'Service'...!!! Please try again", {
-      onClose : () => {
+    toast.error("Something went wrong with 'Service'...!!! Please try again", {
+      onClose: () => {
         setSpinnerflag(false)
       },
-      autoClose : 5000
+      autoClose: 5000
     })
   }
 
@@ -134,8 +134,7 @@ function App() {
         setSpinnerflag(false)
       })
       .catch(function (error) {
-        alert("Something went wrong with 'GetTaskList Service'...!!! Please try again")
-        setSpinnerflag(false)
+        errorPopup();
       });
   }, [])
 
